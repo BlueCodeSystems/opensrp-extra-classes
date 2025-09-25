@@ -1,0 +1,22 @@
+plugins {
+    id 'com.android.library' version '8.5.2' apply false
+    id 'maven-publish'
+}
+
+ext {
+    compileSdk = 34
+    minSdk = 18
+    targetSdk = 35
+}
+
+if (project.hasProperty('group')) {
+    group = project.property('group')
+} else if (project.hasProperty('GROUP')) {
+    group = project.property('GROUP')
+}
+
+if (project.hasProperty('version')) {
+    version = project.property('version')
+} else if (project.hasProperty('VERSION_NAME')) {
+    version = project.property('VERSION_NAME')
+}

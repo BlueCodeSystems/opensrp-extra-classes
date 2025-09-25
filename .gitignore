@@ -1,0 +1,17 @@
+.gradle/
+build/
+**/build/
+.cxx/
+local.properties
+.idea/
+*.iml
+*.ipr
+*.iws
+cfr.jar
+cfr-out/
+downloads/
+extracted-aar/
+extracted-sources/
+opensrp-client-pulsebridge-*.jar
+*.aar
+.DS_Store

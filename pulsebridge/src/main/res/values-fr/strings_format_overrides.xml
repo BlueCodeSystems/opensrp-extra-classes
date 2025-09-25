@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="chat_message_format">%1$s : %2$s</string>
+    <string name="connection_lost_transfer_summary">Veuillez vous assurer que l\'appareil de %1$s est allumé et à proximité. %2$s fichiers ont été transférés. Veuillez vous reconnecter pour transférer les données restantes.</string>
+    <string name="log_connection_initiated_endpoint_auth_code">Connexion initiée par : %1$s  Nom de destination finale (%2$s) code d\'auth(%3$s)</string>
+    <string name="log_endpoint_found">Destination finale trouvée : %1$s   Infos destination finale : (%2$s, %3$s)</string>
+    <string name="log_ignoring_payload_since_it_does_not_match_expected_payload">Ignorer la charge utile %1$d car elle ne correspond pas à la charge utile attendue %2$d</string>
+    <string name="log_rejecting_connection_initiated_by_other_device">Rejet de la connexion initiée par l\'autre appareil %1$s, %2$s, %3$s</string>
+    <string name="transfer_records_track_log_format">%1$s|%2$s|%3$s|%4$d|%5$s</string>
+    <string name="transfer_records_track_log_hr_format">Appareil %1$s %2$s %3$d sur %4$s. Plus d\'informations sur l\'appareil (%5$s)</string>
+    <string name="transfer_summary_content">%1$d enregistrements %2$s</string>
+</resources>

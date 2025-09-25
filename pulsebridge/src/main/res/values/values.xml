@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="bindType">ec_child</string>
+    <string name="bundle_exception_message">An error occurred while generating the fhir bundle</string>
+    <string name="chrome_not_installed">Error! Chrome is not installed</string>
+    <string name="encounterType">pulseBridge_assessment</string>
+    <string name="process_event_message">An error occurred while creating event</string>
+</resources>

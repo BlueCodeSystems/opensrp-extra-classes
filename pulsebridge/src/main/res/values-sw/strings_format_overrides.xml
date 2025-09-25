@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="clear_data_dialog_message">Unajaribu kuingia na mtumiaji katika timu / eneo tofauti. Kutuma data isiyomalizika na kufuta data kwa mtumiaji %1$s kwenye Timu %2$s ni lazima. Je, unataka kuendelea?</string>
+</resources>

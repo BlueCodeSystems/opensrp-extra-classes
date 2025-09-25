@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="chat_message_format">%1$s: %2$s</string>
+    <string name="clear_data_dialog_message">You are trying to login with a user in a different team/location. Upload of pending data and clearing of data for user %1$s in Team %2$s is required. Do you want to continue?</string>
+    <string name="connection_lost_transfer_summary">Please make sure %1$s\'s device is turned on and in range. %2$s records were transferred. Reconnect to transfer the remaining data.</string>
+    <string name="log_connection_initiated_endpoint_auth_code">Connection initiated by: %1$s  Endpoint name(%2$s) auth code(%3$s)</string>
+    <string name="log_endpoint_found">Endpoint found: %1$s   Endpoint info: (%2$s, %3$s)</string>
+    <string name="log_ignoring_payload_since_it_does_not_match_expected_payload">Ignoring payload %1$d since it does not match the expected payload %2$d</string>
+    <string name="log_rejecting_connection_initiated_by_other_device">Rejecting connection initiated by the other device %1$s, %2$s, %3$s</string>
+    <string name="transfer_records_track_log_format">%1$s|%2$s|%3$s|%4$d|%5$s</string>
+    <string name="transfer_records_track_log_hr_format">Device %1$s %2$s %3$d of %4$s. More device info(%5$s)</string>
+    <string name="transfer_summary_content">%1$d records %2$s</string>
+</resources>
