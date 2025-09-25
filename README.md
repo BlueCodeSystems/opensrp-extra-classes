@@ -30,7 +30,7 @@ OpenSRP events, and launching the PulseBridge Progressive Web App experience.
 
 ## Install
 Add the dependency from Maven Central once published. Replace `<version>` with a
-tagged release (see Releases).
+tagged release (current: `0.1.0`, released on September 25, 2025).
 
 <details>
 <summary>Groovy build.gradle</summary>
@@ -41,7 +41,7 @@ repositories {
 }
 
 dependencies {
-    implementation 'org.example:pulsebridge:<version>'
+    implementation 'org.example:pulsebridge:0.1.0'
 }
 ```
 </details>
@@ -55,7 +55,7 @@ repositories {
 }
 
 dependencies {
-    implementation("org.example:pulsebridge:<version>")
+    implementation("org.example:pulsebridge:0.1.0")
 }
 ```
 </details>
@@ -118,8 +118,12 @@ app to exercise the library APIs.
 ```
 
 ## Releases
-Refer to the repository's Releases page for published versions and notes once
-tags are created.
+### 0.1.0 - September 25, 2025
+- Initial library release with PulseBridge FHIR bundle generation and parsing
+  APIs, plus client utilities for PulseBridge workflows.
+
+Refer to the repository's Releases page for published versions and release
+notes.
 
 ## Contributing
 Issues and pull requests are welcome. Please build and test with the toolchain
