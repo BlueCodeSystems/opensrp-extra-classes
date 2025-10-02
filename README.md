@@ -1,6 +1,6 @@
 <!-- JITPACK BADGES:START -->
 [![JitPack Latest](https://jitpack.io/v/BlueCodeSystems/pulsebridge.svg)](https://jitpack.io/#BlueCodeSystems/pulsebridge)
-[![Build for latest tag (v0.1.0)](https://jitpack.io/v/BlueCodeSystems/pulsebridge/v0.1.0.svg)](https://jitpack.io/#BlueCodeSystems/pulsebridge/v0.1.0)
+[![Build for latest tag (v0.1.1)](https://jitpack.io/v/BlueCodeSystems/pulsebridge/v0.1.1.svg)](https://jitpack.io/#BlueCodeSystems/pulsebridge/v0.1.1)
 [![master-SNAPSHOT](https://jitpack.io/v/BlueCodeSystems/pulsebridge/master-SNAPSHOT.svg)](https://jitpack.io/#BlueCodeSystems/pulsebridge/master-SNAPSHOT)
 <!-- JITPACK BADGES:END -->
 
