@@ -12,7 +12,7 @@ OpenSRP events, and launching the PulseBridge Progressive Web App experience.
 ## Project Status
 - Tooling: Gradle 8.7, Android Gradle Plugin 8.5.2, Java (no Kotlin sources)
 - Android: compileSdk 34, targetSdk 35, minSdk 18
-- Branch: `main` (no tags have been created yet)
+- Branch: `main` (latest tag `v0.1.1`)
 - CI: configure GitHub Actions or preferred runner (none provided in repo)
 
 ## Features
@@ -30,7 +30,7 @@ OpenSRP events, and launching the PulseBridge Progressive Web App experience.
 
 ## Install
 Add the dependency from Maven Central once published. Replace `<version>` with a
-tagged release (current: `0.1.0`, released on September 25, 2025).
+tagged release (current: `0.1.1`, released on October 2, 2025).
 
 <details>
 <summary>Groovy build.gradle</summary>
@@ -41,7 +41,7 @@ repositories {
 }
 
 dependencies {
-    implementation 'org.example:pulsebridge:0.1.0'
+    implementation 'org.example:pulsebridge:0.1.1'
 }
 ```
 </details>
@@ -55,7 +55,7 @@ repositories {
 }
 
 dependencies {
-    implementation("org.example:pulsebridge:0.1.0")
+    implementation("org.example:pulsebridge:0.1.1")
 }
 ```
 </details>
@@ -118,6 +118,10 @@ app to exercise the library APIs.
 ```
 
 ## Releases
+### 0.1.1 - October 2, 2025
+- Restored the default action bar height by removing the custom override.
+- Declared the Maven group for local publication workflows.
+
 ### 0.1.0 - September 25, 2025
 - Initial library release with PulseBridge FHIR bundle generation and parsing
   APIs, plus client utilities for PulseBridge workflows.
